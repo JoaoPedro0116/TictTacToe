@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Passion+One:wght@400;700;900&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Lobster', cursive;
+font-family: 'Passion One', cursive;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #f7f7f7;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+h1 {
+  text-align: center;
+}
+
+hr {
+  font-weight: bold;
+  height: 3px;
+  background: rgb(0, 0, 0);
+  margin-bottom: 10px;
+}
+
+.game {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.game button {
+  width: 100px;
+  height: 100px;
+  margin: 5px;
+  cursor: pointer;
+  font-size: 50px;
+  background: #ffffff;
+}
+
+@media (max-width: 500px)
+{
+  main
+   {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin-top: -150px;
+   }
+   .game button {
+    width: 80px;
+    height: 80px;
+   
+  }
+
+}
