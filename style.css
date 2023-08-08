@@ -60,5 +60,8 @@ hr {
     height: 80px;
    
   }
+  hr{
+    display: none;
+  }
 
 }
